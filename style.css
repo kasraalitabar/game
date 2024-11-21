@@ -1,7 +1,7 @@
-i,fab{
+i.fab{
     font-size: 3rem;
 }
-div.box{
+div.box-items {
     display: flex;
     justify-content: center;
     align-items: center;

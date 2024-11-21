@@ -4,11 +4,18 @@ function boxclick(evt){
     
 }
 
-function hiddenall(){
+function hideALL(){
     for (const box of boxes) {
         box.classList.add("hidden")
-    }
+    }   
 }
+function setTimeouthandeler(){
+
+    hideALL();
+} 
+
+setTimeout(hideALL,1000)
+
 for(const box of boxes){
     box.addEventListener("click", boxclick)
 }
