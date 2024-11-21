@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+          theme: {
+            extend: {
+              colors: {
+                clifford: '#da373d',
+              }
+            }
+          }
+        }
+      </script>
+      <style type="text/tailwindcss">
+        @layer utilities {
+          .content-auto {
+            content-visibility: auto;
+          }
+        }
+      </style>
+      <script src="https://cdn.tailwindcss.com?plugins=forms,typography,aspect-ratio,line-clamp,container-queries"></script>
+    <link rel="stylesheet" href="style.css">
+    <script src="main.js"></script>
+    <link rel="stylesheet" href="./fontawesome-free-6.6.0-web/fontawesome-free-6.6.0-web/css/all.css">
+</head>
+<body>
+    <div class="grid grid-cols-4 gap-1 max-w-screen-sm mx-auto ">
+        <div class="box"><i class="fab fa-twitter"></i></div>
+        <div class="box"><i class="fab fa-twitter"></i></div>
+        <div class="box"><i class="fab fa-meta"></i></div>
+        <div class="box"><i class="fab fa-meta"></i></div>
+        <div class="box"><i class="fab fa-telegram"></i></div>
+        <div class="box"><i class="fab fa-telegram"></i></div>
+        <div class="box"><i class="fab fa-github"></i></div>
+        <div class="box"><i class="fab fa-github"></i></div>
+        <div class="box"><i class="fab fa-google"></i></div>
+        <div class="box"><i class="fab fa-google"></i></div>
+        <div class="box"><i class="fab fa-instagram"></i></div>
+        <div class="box"><i class="fab fa-instagram"></i></div>
+        <div class="box"><i class="fab fa-whatsapp"></i></div>
+        <div class="box"><i class="fab fa-whatsapp"></i></div>
+        <div class="box"><i class="fab fa-facebook"></i></div>
+        <div class="box"><i class="fab fa-facebook"></i></div>
+    </div>
+</body>
+</html>

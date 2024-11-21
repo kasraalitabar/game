@@ -1,0 +1,14 @@
+i,fab{
+    font-size: 3rem;
+}
+div.box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    aspect-ratio: 1/1;
+    background-color: gray;
+    height: 150px;
+}
+.hidden > i{
+    display: none;
+}
