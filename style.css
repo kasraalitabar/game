@@ -10,5 +10,5 @@ div.box{
     height: 150px;
 }
 .hidden > i{
-    display: none;
+    display: none !important;
 }
