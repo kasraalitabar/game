@@ -9,14 +9,24 @@ function boxclick(evt) {
         evt.target.classList.remove("hidden");
         selectedBoxes.push(evt.target);
         if (selectedBoxes[0].innerHtml === selectedBoxes[1].innerHtml) {
+            selectedBoxes[0].classList.add("matched")
+            selectedBoxes[1].classList.add("matched")
             selectedBoxes.length = 0;
         } else {
+            freez()
             setTimeout(function () {
                 selectedBoxes[0].classList.add("hidden");
                 selectedBoxes[1].classList.add("hidden");
                 selectedBoxes.length = 0;
             },1000)
         }
+    }
+}
+
+function freez(){
+    for (const box of boxes) {
+        box.classList.add("freeze")
+        
     }
 }
 

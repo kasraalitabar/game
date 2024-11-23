@@ -12,3 +12,9 @@ div.box-items {
 .hidden > i{
     display: none !important;
 }
+.freeze{
+    pointer-events: none;
+}
+.matched{
+    pointer-events: none;
+}
